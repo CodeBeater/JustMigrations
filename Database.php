@@ -1,4 +1,6 @@
 <?php
+  namespace CodeBeater;
+
   class Database {
     private $connection = null;
     private static $instance = null;
